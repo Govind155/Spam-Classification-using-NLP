@@ -2,8 +2,7 @@
 Implementing a machine learning algorithm (Natural language processing (NLP)) to detect if an email is a spam email or a ham (not spam) .
 
 ## Dataset
-The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research.
-It contains one set of SMS messages in English of 5572 messages, tagged acording being ham (legitimate) or spam.
+I have used the open-source [Spambase dataset] (https://lionbridge.ai/articles/using-natural-language-processing-for-spam-detection-in-emails/) from the UCI machine learning repository, a dataset that contains 5572 emails, of which 747 are spam.
 
 ## Live Demo :
 https://spam-detector-01.herokuapp.com/
