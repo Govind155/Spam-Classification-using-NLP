@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,18 +10,18 @@
 	<header>
 		<div class="container">
 		<div id="brandname">
-			<h2> SPAM DETECTOR APP USING NLP </h2>
+			Spam Detector App using NLP
 		</div>
-		<h1>Spam Detector For SMS / Email Messages</h1>
+		<h2>Spam Detector For Email Messages</h2>
 		
 	</div>
 	</header>
 
 	<div class="ml-container">
 
-		<form action="{{ url_for('predict')}}" method="POST">
+		<form action="/predict" method="POST">
 		<p>Enter Your Message/Mail Here which you want to predict Spam or Ham</p>
-		<textarea name="message" rows="6" cols="50"></textarea>
+		<textarea name="message" rows="6" cols="50" placeholder="Enter Your Message..." ></textarea>
 		<br/>
 
 		<input type="Submit" class="btn-info" value="Predict">
@@ -28,6 +29,9 @@
 	</form>
 		
 	</div>
-	
 </body>
+	<footer class="footer">
+    <div class="footerContainer">
+        <p class="copyright"> Made with &#x1F497 by Govind </p>
+    </div>
 </html>
