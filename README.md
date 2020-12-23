@@ -11,4 +11,5 @@ https://spam-detector-01.herokuapp.com/
 ## Screenshot 
 ![spam app](https://user-images.githubusercontent.com/73738015/103008662-7dcf2500-455b-11eb-9bf4-59facf19b7de.JPG)
 
-## Accuracy Score: 98%
+## Accuracy Score:
+98%
