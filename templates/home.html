@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css"  href="static/styles.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			Spam Detector App using NLP
+		</div>
+		<h2>Spam Detector For Email Messages</h2>
+		
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="/predict" method="POST">
+		<p>Enter Your Message/Mail Here which you want to predict Spam or Ham</p>
+		<textarea name="message" rows="6" cols="50" placeholder="Enter Your Message..." ></textarea>
+		<br/>
+
+		<input type="Submit" class="btn-info" value="Predict">
+		
+	</form>
+		
+	</div>
+</body>
+	<footer class="footer">
+    <div class="footerContainer">
+        <p class="copyright"> Made with &#x1F497 by Govind </p>
+    </div>
+</html>
