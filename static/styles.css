@@ -1,0 +1,17 @@
+html { font-family: sans-serif; background: #eee; padding: 1rem; }
+body{ max-width: 960px; font:15px/1.5 Arial, Helvetica,sans-serif; 	padding: 0px; 	margin: 0 auto; background-color: #a079d4; }
+
+.container{ width:100%; margin: auto; overflow: hidden;}
+
+header{ background:#000000;	border-bottom:#448AFF 10px solid;height:120px; width:100%; 	padding-top:10px;}
+
+.main-header{ text-align:center;background-color: blue;	height:100px;width:100%;margin:0px;	}
+form { text-align:center;  }
+#brandname{ font-size:30px;	text-align:center; 	color: #fff;}
+p{font-size:33px;	text-align:center; color: #white; font-weight:bolder}
+header h2{ 	text-align:center; 	font-size:30px;	color:#fff;}
+.btn-info {padding: 15px 25px; font-size: 24px; cursor: pointer; text-align: center; outline: none; color: #fff; background-color: #4055f5; border: none; border-radius: 40px;margin-bottom: 10px;}  
+.btn-info:hover {background: #3045e6; }
+p.copyright { position: absolute;font-weight: bold;  color: #fff; width: 100%;line-height: 40px; bottom:0;text-align: center;  font-size: 0.7em;}  
+footer.footer {position: relative; height:60px; width: 100%;background-color: #333333;}
+.resultss{ 	border-radius: 15px 50px;  background: #345fe4;  padding: 20px;  width: 200px; height: 150px; }
