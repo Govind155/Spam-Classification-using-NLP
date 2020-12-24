@@ -1,4 +1,4 @@
-# Spam-Classification-using-NLP
+# Spam Classification using NLP
 Implementing Natural language processing (NLP) to detect if an email is a spam email or a ham (not spam).
 
 ## Live Demo 
