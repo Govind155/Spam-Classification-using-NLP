@@ -8,14 +8,14 @@
   * [Accuracy Score](#accuracy-score)
   
 ## Demo 
-Link: https://spam-detector-01.herokuapp.com/
+Link: https://spam-detector-01.herokuapp.com/ <br><br>
 ![spam app](https://user-images.githubusercontent.com/73738015/103008662-7dcf2500-455b-11eb-9bf4-59facf19b7de.JPG)
 
 ## Introduction
 This is a Spam Classifier web application built using Flask and deployed on Heroku platform. The app takes a message/email as an input and predict the message/email as spam or not spam (ham).
 
 ## Dataset
-I have used the open-source [Spambase dataset](http://archive.ics.uci.edu/ml/datasets/Spambase/) from the UCI machine learning repository.
+I have used the open-source [Spambase dataset](http://archive.ics.uci.edu/ml/datasets/Spambase/) from the UCI machine learning repository. <br>
 It contains 5572 rows and 2 columns. Each row represents the message in the text is spam or ham(not spam).
 
 
